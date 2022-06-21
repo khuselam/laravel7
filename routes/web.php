@@ -16,7 +16,11 @@ use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
 
-    $posts = DB::select('select * from posts');
+    dd(env('DB_PASSWORD'));
+
+
+    $posts = DB::select('select * from posts');   
+   
 
     return view('welcome',['posts'=>$users]);
 
