@@ -82,7 +82,7 @@
             <div class="content">
                 <h4>Some Data From DB</h4>
                <div class="links">
-                @foreach($posts as $post)
+                @foreach($posts as $key => $post)
                     <a href="https://laravel.com/docs">{{ $post->post_content }}</a>
                 @foreach
                 <div class="title m-b-md">

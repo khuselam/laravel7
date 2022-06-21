@@ -16,8 +16,6 @@ class TestController extends Controller
 
 
         $posts = DB::select('select * from posts');  
-        
-        dd( $posts);
    
 
         return view('welcome',['posts'=>$posts]);
