@@ -15,3 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'TestController@index');
+
+Route::get('route/test', function () {
+    return 'Hello World';
+});
