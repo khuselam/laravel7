@@ -83,7 +83,7 @@
                 <h4>Some Data From DB</h4>
                <div class="links">
                 @foreach($posts as $key => $post)
-                    <a href="https://laravel.com/docs">{{ $post->post_content }}</a>
+                    <a href="https://laravel.com/docs">{{ $post->post_content }} from db</a>
                 @endforeach
                 <div class="title m-b-md">
                     Laravel Test Application - Minor change from localhost
