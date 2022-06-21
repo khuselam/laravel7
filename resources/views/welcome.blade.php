@@ -84,7 +84,7 @@
                <div class="links">
                 @foreach($posts as $key => $post)
                     <a href="https://laravel.com/docs">{{ $post->post_content }}</a>
-                @foreach
+                @endforeach
                 <div class="title m-b-md">
                     Laravel Test Application - Minor change from localhost
                 </div>
