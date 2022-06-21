@@ -15,7 +15,9 @@ class TestController extends Controller
      //dd(env('DB_PASSWORD'));
 
 
-        $posts = DB::select('select * from posts');   
+        $posts = DB::select('select * from posts');  
+        
+        dd( $posts);
    
 
         return view('welcome',['posts'=>$posts]);
