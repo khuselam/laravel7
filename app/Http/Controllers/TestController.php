@@ -11,6 +11,9 @@ class TestController extends Controller
 
     public function index(){
 
+        
+     dd(env('APP_ENV'));
+
 
         $posts = DB::select('select * from posts');   
    
