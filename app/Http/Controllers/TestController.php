@@ -18,6 +18,6 @@ class TestController extends Controller
         $posts = DB::select('select * from posts');   
    
 
-        return view('welcome',['posts'=>$users]);
+        return view('welcome',['posts'=>$posts]);
     }
 }
