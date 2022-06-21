@@ -12,7 +12,7 @@ class TestController extends Controller
     public function index(){
 
         
-     dd(env('APP_ENV'));
+     dd(env('DB_PASSWORD'));
 
 
         $posts = DB::select('select * from posts');   
