@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel Test Application - Minor change from localhost
                 </div>
 
                 <div class="links">
